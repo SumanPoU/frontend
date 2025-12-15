@@ -4,15 +4,15 @@ A modern **Next.js 15+** frontend application built with the App Router, featuri
 
 ## 🚀 Features
 
--  **Next.js 15** with App Router
--  **TypeScript** for type safety
--  **Tailwind CSS v4** for styling
--  **JWT Authentication** (Access & Refresh tokens)
--  **Protected Dashboard Routes**
--  **Invoice Management**
--  **Reusable UI Components** (Radix UI primitives)
--  **API Middleware/Proxy**
--  **Responsive Design**
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS v4** for styling
+- **JWT Authentication** (Access & Refresh tokens)
+- **Protected Dashboard Routes**
+- **Invoice Management**
+- **Reusable UI Components** (Radix UI primitives)
+- **API Middleware/Proxy**
+- **Responsive Design**
 
 ---
 
@@ -48,8 +48,8 @@ A modern **Next.js 15+** frontend application built with the App Router, featuri
 │   │       ├── dropdown-menu.tsx
 │   │       ├── dialog.tsx
 │   │       └── ...
-│   └── lib/                # Utilities
-│       └── proxy.ts        # API middleware/proxy
+│   └── proxy.ts                # API middleware/proxy
+│
 ├── .env                    # Environment variables
 ├── .gitignore             # Git ignore rules
 ├── components.json        # shadcn/ui config
@@ -111,12 +111,12 @@ The application will be available at **http://localhost:3001**
 
 ## 📜 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server on port 3001 |
-| `npm run build` | Build for production |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+| Command         | Description                           |
+| --------------- | ------------------------------------- |
+| `npm run dev`   | Start development server on port 3001 |
+| `npm run build` | Build for production                  |
+| `npm run start` | Start production server               |
+| `npm run lint`  | Run ESLint                            |
 
 ---
 
@@ -130,7 +130,7 @@ This project uses **JWT-based authentication** with:
 
 ### Authentication Flow
 
-1. User logs in via `/login` (or similar)
+1. User logs in via `/login`
 2. Backend returns access & refresh tokens
 3. Tokens are stored securely
 4. Protected routes check authentication status
@@ -195,10 +195,6 @@ npx shadcn-ui@latest add [component-name]
 npm run build
 npm run start
 ```
-
-
-
-
 
 ---
 
