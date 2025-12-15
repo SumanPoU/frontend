@@ -62,8 +62,12 @@ export default function DashboardPage() {
         <CardHeader>
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle>Invoices</CardTitle>
-              <CardDescription>Manage and view your invoices</CardDescription>
+              <h2 className="text-xl font-bold tracking-tight text-gray-900 ">
+                Invoices
+              </h2>
+              <p className="hidden md:inline-block text-muted-foreground">
+                Manage and view your invoices
+              </p>
             </div>
             <CreateInvoiceDialog onInvoiceCreated={fetchInvoices} />
           </div>
