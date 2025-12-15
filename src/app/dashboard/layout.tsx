@@ -1,4 +1,4 @@
-import { cookies } from "next/headers";
+import type React from "react";
 import { redirect } from "next/navigation";
 import { validateAndRefreshToken } from "@/actions/auth";
 
